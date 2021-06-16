@@ -24,6 +24,7 @@ function App() {
         <Card title="Hello" text="Candice" onHover={hover}/>
         <Card title="Hello" text="Candice" onHover={hover}/>
       </Row>
+      <p style={{textAlign: 'center', fontStyle: 'normal', }}>If your name is Courtney "Sage" Wong you can claim this website. Must show proof of identical name with birth certificate.</p>
     </div>
   );
 }
