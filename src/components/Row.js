@@ -1,8 +1,14 @@
 const Row = (props) => {
-    const {name, children} = props;
-    return <div className="row">
-        {children}
-    </div>
+    const {children} = props;
+    return (
+        <>
+            <div className="row">
+                {children}
+                <div style={{"clear": "both",}}></div>
+            </div>
+            
+        </>
+    )
 }
 
 export default Row
