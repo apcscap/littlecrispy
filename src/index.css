@@ -87,6 +87,12 @@ code {
   position: absolute;
   transition: opacity 5s;
   -webkit-transition: opacity 5s;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 @media (max-width : 800px) {
