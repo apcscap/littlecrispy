@@ -37,4 +37,31 @@ code {
   border: 1px solid black;
   padding: 30px;
   border-radius: 5px;
+  border: solid 1px;
+}
+
+.row {
+  width: 100%;
+}
+
+.card-container {
+  float: left;
+  display: block;
+  padding: 0 10% 0 10%;
+  width: 50%;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.card {
+  margin: 0 auto;
+  text-align: center;
+  height: 369px;
+  border-radius: 5px;
+  border: solid 1px;
+  
+}
+
+.hide {
+  display: none;
 }
