@@ -42,12 +42,14 @@ code {
 
 .row {
   width: 100%;
+  box-sizing: border-box;
+  padding: 0 100px 0 100px;
 }
 
 .card-container {
   float: left;
   display: block;
-  padding: 0 10% 0 10%;
+  padding: 10px;
   width: 50%;
   margin-top: 10px;
   box-sizing: border-box;
@@ -64,4 +66,32 @@ code {
 
 .hide {
   display: none;
+}
+
+@media (max-width : 800px) {
+
+  .sage-title {
+    font-size: 80px; 
+    overflow: hidden;
+    background: url(sage-wallpaper.png) -500px -100px;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+    margin: 0px;
+  }
+  .row {
+    padding: 0 10% 0 10%;
+  }
+  .card-container {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  
 }
