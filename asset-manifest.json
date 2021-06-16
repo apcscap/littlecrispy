@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/littlecrispy/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/littlecrispy/static/js/main.18eea166.chunk.js",
+    "main.js.map": "/littlecrispy/static/js/main.18eea166.chunk.js.map",
+    "runtime-main.js": "/littlecrispy/static/js/runtime-main.d8ca5828.js",
+    "runtime-main.js.map": "/littlecrispy/static/js/runtime-main.d8ca5828.js.map",
+    "static/js/2.a6837905.chunk.js": "/littlecrispy/static/js/2.a6837905.chunk.js",
+    "static/js/2.a6837905.chunk.js.map": "/littlecrispy/static/js/2.a6837905.chunk.js.map",
+    "static/js/3.ddbbd267.chunk.js": "/littlecrispy/static/js/3.ddbbd267.chunk.js",
+    "static/js/3.ddbbd267.chunk.js.map": "/littlecrispy/static/js/3.ddbbd267.chunk.js.map",
+    "index.html": "/littlecrispy/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/littlecrispy/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.a6837905.chunk.js.LICENSE.txt": "/littlecrispy/static/js/2.a6837905.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8ca5828.js",
+    "static/js/2.a6837905.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.18eea166.chunk.js"
+  ]
+}
