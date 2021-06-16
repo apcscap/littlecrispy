@@ -13,14 +13,28 @@ code {
 }
 
 .sage-title {
-  font-size: 100px;
-  background: url(sage-wallpaper.png) -170px -189px;
+  font-size: 169px;
+  background: url(sage-wallpaper.png) -150px -100px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-top: 200px;
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
   font-weight: 800;
   -webkit-font-smoothing: antialiased;
+  margin: 0px;
+}
+
+.title-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 5px;
 }
