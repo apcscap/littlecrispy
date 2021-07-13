@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/littlecrispy/static/css/main.79777771.chunk.css",
-    "main.js": "/littlecrispy/static/js/main.7ff75e33.chunk.js",
-    "main.js.map": "/littlecrispy/static/js/main.7ff75e33.chunk.js.map",
+    "main.css": "/littlecrispy/static/css/main.c88ec411.chunk.css",
+    "main.js": "/littlecrispy/static/js/main.c7ebca06.chunk.js",
+    "main.js.map": "/littlecrispy/static/js/main.c7ebca06.chunk.js.map",
     "runtime-main.js": "/littlecrispy/static/js/runtime-main.0a9320c8.js",
     "runtime-main.js.map": "/littlecrispy/static/js/runtime-main.0a9320c8.js.map",
-    "static/js/2.10c55618.chunk.js": "/littlecrispy/static/js/2.10c55618.chunk.js",
-    "static/js/2.10c55618.chunk.js.map": "/littlecrispy/static/js/2.10c55618.chunk.js.map",
+    "static/js/2.5576db08.chunk.js": "/littlecrispy/static/js/2.5576db08.chunk.js",
+    "static/js/2.5576db08.chunk.js.map": "/littlecrispy/static/js/2.5576db08.chunk.js.map",
     "static/js/3.2b3649a9.chunk.js": "/littlecrispy/static/js/3.2b3649a9.chunk.js",
     "static/js/3.2b3649a9.chunk.js.map": "/littlecrispy/static/js/3.2b3649a9.chunk.js.map",
     "index.html": "/littlecrispy/index.html",
-    "static/css/main.79777771.chunk.css.map": "/littlecrispy/static/css/main.79777771.chunk.css.map",
-    "static/js/2.10c55618.chunk.js.LICENSE.txt": "/littlecrispy/static/js/2.10c55618.chunk.js.LICENSE.txt",
+    "static/css/main.c88ec411.chunk.css.map": "/littlecrispy/static/css/main.c88ec411.chunk.css.map",
+    "static/js/2.5576db08.chunk.js.LICENSE.txt": "/littlecrispy/static/js/2.5576db08.chunk.js.LICENSE.txt",
     "static/media/index.css": "/littlecrispy/static/media/sage-wallpaper.5ebc78bb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0a9320c8.js",
-    "static/js/2.10c55618.chunk.js",
-    "static/css/main.79777771.chunk.css",
-    "static/js/main.7ff75e33.chunk.js"
+    "static/js/2.5576db08.chunk.js",
+    "static/css/main.c88ec411.chunk.css",
+    "static/js/main.c7ebca06.chunk.js"
   ]
 }
