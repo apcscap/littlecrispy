@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Row from './components/Row';
 import Card from './components/Card';
 import Surprise from './components/Surprise';
-import Button from './components/Button';
+import SurpriseButton from './components/SurpriseButton';
 import {useState} from 'react';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
@@ -17,9 +17,9 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename='/littlecrispy'>
       <div className="container">
-        <Route path='/' exact render={(props) => (
+        <Route exact path='/' exact render={(props) => (
           <>
             <Header/>
             <Row>
@@ -31,10 +31,10 @@ function App() {
               <Card title="Hello" text="Candice" onHover={hover}/>
             </Row>
             <p style={{textAlign: 'center', fontStyle: 'normal', }}>If your name is Courtney "Sage" Wong you can claim this website. Must show proof of identical name with birth certificate.</p>
-            <Link to='/surprise'><Button>Click here for your radiant points</Button></Link>
+            <Link to='/surprise'><SurpriseButton>Click here for your radiant points</SurpriseButton></Link>
           </>
         )}/>
-        <Route path='/surprise' component={Surprise}/>
+        <Route exact path='/surprise' component={Surprise}/>
       </div>
     </Router>
   );
