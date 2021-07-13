@@ -154,8 +154,6 @@ code {
   border-radius: 10px;
   font-size: 25px;
   font-family: 'Anton', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   font-weight: bold;
   text-transform: uppercase;
   font-weight: 100;

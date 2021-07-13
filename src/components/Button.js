@@ -1,6 +1,6 @@
 const Button = () => {
     return (
-        <button type="button" className="button breeze">Claim Val Points</button>
+        <button className="breeze button">Claim Val Points</button>
     )
 }
 
