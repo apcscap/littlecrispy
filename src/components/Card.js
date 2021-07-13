@@ -1,5 +1,6 @@
 import { useState } from "react";
 import sage from '../sage-wallpaper.png'
+
 const Card = (props) => {
     const {title, text, children} = props;
     const [isHovered, onHovered] = useState(false)
