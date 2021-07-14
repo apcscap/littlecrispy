@@ -35,7 +35,7 @@ function App() {
               <Card title="Hello" text="Candice" imgPath={bringersinger} video onHover={hover}/>
             </Row>
             <p style={{textAlign: 'center', fontStyle: 'normal', }}>If your name is Courtney "Sage" Wong you can claim this website. Must show proof of identical name with birth certificate.</p>
-            <Link to='/surprise'><SurpriseButton>Click here for your radiant points</SurpriseButton></Link>
+            <Link to='/surprise'><SurpriseButton>Claim Val Points</SurpriseButton></Link>
           </>
         )}/>
         <Route exact path='/surprise' component={Surprise}/>
