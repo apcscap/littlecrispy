@@ -1,6 +1,8 @@
-const SurpriseButton = () => {
+const SurpriseButton = (props) => {
+    const {children} = props;
+
     return (
-        <button className="breeze button">Claim Val Points</button>
+        <button className="breeze button">{children}</button>
     )
 }
 
