@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/littlecrispy/static/css/main.c88ec411.chunk.css",
-    "main.js": "/littlecrispy/static/js/main.c7ebca06.chunk.js",
-    "main.js.map": "/littlecrispy/static/js/main.c7ebca06.chunk.js.map",
+    "main.css": "/littlecrispy/static/css/main.4b88f632.chunk.css",
+    "main.js": "/littlecrispy/static/js/main.87982dbe.chunk.js",
+    "main.js.map": "/littlecrispy/static/js/main.87982dbe.chunk.js.map",
     "runtime-main.js": "/littlecrispy/static/js/runtime-main.0a9320c8.js",
     "runtime-main.js.map": "/littlecrispy/static/js/runtime-main.0a9320c8.js.map",
     "static/js/2.5576db08.chunk.js": "/littlecrispy/static/js/2.5576db08.chunk.js",
@@ -10,14 +10,17 @@
     "static/js/3.2b3649a9.chunk.js": "/littlecrispy/static/js/3.2b3649a9.chunk.js",
     "static/js/3.2b3649a9.chunk.js.map": "/littlecrispy/static/js/3.2b3649a9.chunk.js.map",
     "index.html": "/littlecrispy/index.html",
-    "static/css/main.c88ec411.chunk.css.map": "/littlecrispy/static/css/main.c88ec411.chunk.css.map",
+    "static/css/main.4b88f632.chunk.css.map": "/littlecrispy/static/css/main.4b88f632.chunk.css.map",
     "static/js/2.5576db08.chunk.js.LICENSE.txt": "/littlecrispy/static/js/2.5576db08.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/littlecrispy/static/media/sage-wallpaper.5ebc78bb.png"
+    "static/media/index.css": "/littlecrispy/static/media/sage-wallpaper.5ebc78bb.png",
+    "static/media/dabestcouple.a81769e5.jpeg": "/littlecrispy/static/media/dabestcouple.a81769e5.jpeg",
+    "static/media/the-bringer.37ae975e.png": "/littlecrispy/static/media/the-bringer.37ae975e.png",
+    "static/media/the-gang.c682326c.jpg": "/littlecrispy/static/media/the-gang.c682326c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0a9320c8.js",
     "static/js/2.5576db08.chunk.js",
-    "static/css/main.c88ec411.chunk.css",
-    "static/js/main.c7ebca06.chunk.js"
+    "static/css/main.4b88f632.chunk.css",
+    "static/js/main.87982dbe.chunk.js"
   ]
 }
