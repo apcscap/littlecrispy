@@ -23,6 +23,7 @@ code {
   font-weight: 800;
   -webkit-font-smoothing: antialiased;
   margin: 0px;
+  transition: 0.05s;
 }
 
 .title-center {
