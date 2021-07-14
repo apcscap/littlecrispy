@@ -1,13 +1,17 @@
 import { Link } from "react-router-dom";
 import ReactPlayer from "react-player";
+import SurpriseButton from "./SurpriseButton";
 
 const Surprise = () => {
     return (
         <>
-            <ReactPlayer url='https://www.youtube.com/watch?v=pUvwleVGVmA'
+            <div>
+                <ReactPlayer className="rollContainer" url='https://www.youtube.com/watch?v=pUvwleVGVmA'
                         playing={true}
                         muted={true}/>
-            <Link to='/'>Go back</Link>
+            </div>
+            
+            <Link to='/'><SurpriseButton>Go Back</SurpriseButton></Link>
         </>
     )
 }
