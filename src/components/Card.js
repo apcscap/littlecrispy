@@ -11,14 +11,14 @@ const Card = (props) => {
                 <div className={`img-container ${isHovered && 'no-opacity'}`}>
                     { video===false ?
                         (<img alt="none" className={`card-img`} src={imgPath}/>) :
-                        (<video className="song-vid" autoplay="autoplay" muted="muted" loop="loop">
+                        (<video className="song-vid" autoPlay="autoplay" muted="muted" loop="loop">
                             <source src={imgPath} type="video/mp4"></source>
                         </video>)
                     }
                 </div>
                 <div className={`letter ${!isHovered ? 'hide' : 'full-opacity'}`}>
-                    {`${isHovered}`}
-                    <h1>Jo Mamma</h1>
+                    <h2>{title}</h2>
+                    <p>{text}</p>
                 </div>
             </div>
         </div>
