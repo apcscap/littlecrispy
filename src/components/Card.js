@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const Card = (props) => {
     const {title, text, children, imgPath, video} = props;
-    const [isHovered, onHovered] = useState(false)
+    const [isHovered, onHovered] = useState(false);
 
     return (
         <>
@@ -11,7 +11,7 @@ const Card = (props) => {
                 <div className={`img-container ${isHovered && 'no-opacity'}`}>
                     { video===false ?
                         (<img alt="none" className={`card-img`} src={imgPath}/>) :
-                        (<video className="song-vid" autoPlay="autoplay" muted="muted" loop="loop">
+                        (<video className="song-vid" autoPlay muted loop>
                             <source src={imgPath} type="video/mp4"></source>
                         </video>)
                     }
