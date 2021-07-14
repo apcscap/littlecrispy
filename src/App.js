@@ -7,6 +7,9 @@ import Surprise from './components/Surprise';
 import SurpriseButton from './components/SurpriseButton';
 import {useState} from 'react';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import thegang from './the-gang.jpg'
+import dabestcouple from './dabestcouple.jpeg'
+import thebringer from './the-bringer.png'
 
 function App() {
 
@@ -23,11 +26,11 @@ function App() {
           <>
             <Header/>
             <Row>
-              <Card title="Hello" text="Candice" onHover={hover}/>
-              <Card title="Hello" text="Candice" onHover={hover}/>
+              <Card title="Hello" text="Candice" imgPath={thegang} onHover={hover}/>
+              <Card title="Hello" text="Candice" imgPath={dabestcouple} onHover={hover}/>
             </Row>
             <Row>
-              <Card title="Hello" text="Candice" onHover={hover}/>
+              <Card title="Hello" text="Candice" imgPath={thebringer}onHover={hover}/>
               <Card title="Hello" text="Candice" onHover={hover}/>
             </Row>
             <p style={{textAlign: 'center', fontStyle: 'normal', }}>If your name is Courtney "Sage" Wong you can claim this website. Must show proof of identical name with birth certificate.</p>
