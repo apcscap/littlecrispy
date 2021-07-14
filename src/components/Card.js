@@ -1,8 +1,7 @@
 import { useState } from "react";
-import sage from '../sage-wallpaper.png'
 
 const Card = (props) => {
-    //const {title, text, children} = props;
+    const {title, text, children, imgPath} = props;
     const [isHovered, onHovered] = useState(false)
 
     return (
@@ -10,7 +9,7 @@ const Card = (props) => {
         <div className="card-container">
             <div className="card" onMouseEnter={() => {onHovered(true)}} onMouseLeave={() => onHovered(false)}>
                 <div className={`img-container ${isHovered && 'no-opacity'}`}>
-                    <img alt="none" className={`card-img`} src={sage}/>
+                    <img alt="none" className={`card-img`} src={imgPath}/>
                 </div>
                 <p className={`letter ${!isHovered ? 'hide' : 'full-opacity'}`}>{`${isHovered}`}</p>
             </div>
