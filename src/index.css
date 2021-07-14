@@ -175,3 +175,8 @@ code {
   width: 100%;
   min-height: 100%;
 }
+
+.rollContainer {
+  margin: auto;
+  margin-bottom: 10px;
+}
