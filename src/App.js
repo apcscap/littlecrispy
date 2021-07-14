@@ -10,7 +10,7 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import thegang from './the-gang.jpg'
 import dabestcouple from './dabestcouple.jpeg'
 import thebringer from './the-bringer.png'
-import bringersinger from './singer.MOV'
+import bringersinger from './singernosound2.mov'
 
 function App() {
 
@@ -34,7 +34,7 @@ function App() {
               <Card title="Hello" text="Candice" imgPath={thebringer} video={false} onHover={hover}/>
               <Card title="Hello" text="Candice" imgPath={bringersinger} video onHover={hover}/>
             </Row>
-            <p style={{textAlign: 'center', fontStyle: 'normal', }}>If your name is Courtney "Sage" Wong you can claim this website. Must show proof of identical name with birth certificate.</p>
+            <p style={{textAlign: 'center', fontStyle: 'normal', }}>If your name is Courtney "Sage" Wong you can claim this website. Must show proof that you have an identical name.- This Website was made by Callan</p>
             <Link to='/surprise'><SurpriseButton>Claim Val Points</SurpriseButton></Link>
           </>
         )}/>
