@@ -28,8 +28,8 @@ code {
   -webkit-font-smoothing: antialiased;
   margin: 0px;
   transition: 0.05s;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #111;
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #111; */
 }
 
 .title-center {
@@ -85,8 +85,8 @@ code {
   height: 100%;
   width: 100%;
   position: absolute;
-  transition: opacity 1s;
-  -webkit-transition: opacity 1s;
+  transition: opacity 0.5s;
+  -webkit-transition: opacity 0.5s;
 }
 
 .hide {
@@ -94,8 +94,8 @@ code {
 }
 .letter {
   position: absolute;
-  transition: opacity 1s;
-  -webkit-transition: opacity 1s;
+  transition: opacity 0.5s;
+  -webkit-transition: opacity 0.5s;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -133,8 +133,8 @@ code {
 }
 
 .fade {
-  transition: opacity 2s;
-  -webkit-transition: opacity 2s;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
   opacity: 1;
 }
 
