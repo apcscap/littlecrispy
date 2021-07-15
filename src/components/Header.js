@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { BrowserView, MobileView } from 'react-device-detect';
 
 const Header = () => {
     const [mouseChange, setMouseChange] = useState({left: 0, top: 0})
@@ -13,9 +14,16 @@ const Header = () => {
     }
 
     return (
-        <>
-        <h1 onMouseMove={handleMouseMove} className="sage-title">Courtney "Sage" Wong</h1>
-        <h2 className="title-center">THE SMART ONE</h2>
+        <> 
+            <BrowserView>
+                <h1 onMouseMove={handleMouseMove} className="sage-title">Courtney "Sage" Wong</h1>
+                <h2 className="title-center">THE SMART ONE</h2>
+            </BrowserView>
+            <MobileView>
+                <h1 className="sage-title">Courtney "Sage" Wong</h1>
+                <h2 className="title-center">THE SMART ONE</h2>
+            </MobileView>
+            
         </>
     )
 }
