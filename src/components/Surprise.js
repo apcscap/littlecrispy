@@ -6,7 +6,7 @@ const Surprise = () => {
     return (
         <>
             <div>
-                <ReactPlayer className="rollContainer" url='https://www.youtube.com/watch?v=pUvwleVGVmA'
+                <ReactPlayer className="rollContainer" url='https://youtu.be/U1zxz65MijQ?t=12'
                         playing={true}
                         muted={true}/>
                 <h2 className="rollContainer">Your Val Points</h2>
